@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Blue Cheese</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/logo-01.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/fonts.googleapis.css" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container d-flex align-items-center justify-content-between">
+       <a href="index.html" class="logo"><img src="assets/img/logo-01.png" alt="" class="img-fluid"></a>
+        
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero"><i class="home"></i>Home</a></li>
+                <li><a class="nav-link scrollto" href="#about"><i class="about"></i>About</a></li>
+                <li><a class="nav-link scrollto" href="#work"><i class="work"></i>Works</a></li>
+                <li><a class="nav-link scrollto " href="#services"><i class="services"></i>Services</a></li>
+                <li><a class="nav-link scrollto" href="#contact"><i class="contact"></i>Contact</a></li>                
+            </ul>
+              
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
