@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
@@ -134,9 +134,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a i{
-    height: 12px;
-    width: 12px;
-    margin: 0 3px;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px;
 }
 
 .navbar a .home {
