@@ -585,7 +585,7 @@ section {
 }
 
 .featured-services .section-title {
-  padding: 30px 0;
+  padding: 30px 40px;
   position: relative;
 }
 
@@ -633,13 +633,14 @@ section {
 }
 
 .featured-services .icon-box {
-    padding: 20px;
+    padding: 20px 10px;
     color: #5f687b;
-    background: #f9f9fa;
+    /*background: #0A1B42;*/
+    background: linear-gradient(to left, #0A1B42, #172750);
     border-radius: 4px;
     border: 1px solid #f9f9fa;
     transition: 0.3s;
-    height: 100%;
+    /*height: 100%;*/
     text-align: -webkit-center;
 }
 
@@ -651,6 +652,18 @@ section {
 .featured-services .icon img {
     height: 100px;
     width: 100px;
+}
+
+.featured-services .icon-box h4 a{
+    color: white;
+}
+
+.featured-services .service2 {
+    margin-top: 40px;
+}
+
+.featured-services .service4 {
+    margin-top: 40px;
 }
 
 .featured-services .title {
@@ -682,12 +695,12 @@ section {
 --------------------------------------------------------------*/
 .work-portfolio {
     padding: 0;
-    /*background: url("../img/services/background.png");*/
+    background: url("../img/services/background.png");*/
 }
 
 .work-portfolio .section-title {
   padding: 30px 0;
-  text-align: center;
+  text-align: center!important;
   position: relative;
   font-family: Coustard;
 }
