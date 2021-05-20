@@ -383,18 +383,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
+    font-family: Coustard;
     margin: 0;
     font-weight: 700;
     line-height: 67.5%;
     /*color: #3e4450;*/
     color: #1D2D5E;
     margin: 10px 0  10px 0;
-    font-size: 51px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 
 #hero h2 {
+    font-family: Coustard;
     color: #17BACE;
     font-size: 28px;
     text-transform: uppercase;
@@ -402,6 +404,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
+    font-family: Nunito;
     font-size: 18px;
 }
 
@@ -537,7 +540,6 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -545,6 +547,13 @@ section {
   color: #5f687b;
   position: relative;
   z-index: 2;
+  font-size: 40px;
+  font-family: Coustard;
+}
+
+.section-title h2 {
+    font-family: Nunito;
+    font-size: 20px;
 }
 
 .section-title span {
@@ -687,7 +696,8 @@ section {
 
 .featured-services .description {
     line-height: 24px;
-    font-size: 14px;
+    font-family: Nunito;
+    font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -702,11 +712,11 @@ section {
   padding: 30px 0;
   text-align: center!important;
   position: relative;
-  font-family: Coustard;
 }
 
 .work-portfolio .section-title h2 {
   font-size: 40px;
+  font-family: Coustard;
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 10px;
@@ -1199,12 +1209,35 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact .section-title {
+    padding: 30px 0;
+    text-align: center!important;
+    position: relative;
+}
+
+.contact .section-title h2 {
+  font-size: 40px;
+  font-family: Coustard;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  color: #1D2D5E;
+  z-index: 2;
+}
+
 .contact .info {
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
-  padding: 30px;
-  width: 100%;
-  background-color: #f9f9fa;
+    color: #444;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 30px;
+    width: 100%;
+    background-color: #f9f9fa;
+    /*text-align: center;*/
+    /*padding: 20px 0 30px 0;*/
+    /*border-top: 3px solid #16df7e;*/
+    /*border-bottom: 3px solid #16df7e;*/
 }
 
 .contact .info i {
@@ -1266,11 +1299,12 @@ section {
 }
 
 .contact .php-email-form {
-  width: 100%;
-  border-top: 3px solid #16df7e;
-  border-bottom: 3px solid #16df7e;
-  padding: 30px;
-  background-color: #f9f9fa;
+    color: #444;
+    box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+    margin-bottom: 30px;  
+    width: 100%;
+    padding: 30px;
+    background-color: #f9f9fa;
 }
 
 .contact .php-email-form .form-group {
@@ -1339,16 +1373,26 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #16df7e;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 8px 30px 9px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    transition: 0.5s;
+    border-radius: 50px;
+        background: #17BACE;
+    color: #fff;
+    border: 2px solid #17BACE;
+    margin-right: 10px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #206bfb;
+    background: #1D2D5E;
+    border: #1D2D5E;
+    box-shadow: 0 8px 28px rgb(29 45 94 / 45%);
 }
 
 @-webkit-keyframes animate-loading {
@@ -1421,6 +1465,169 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+
+#footer {
+  background: #007CC7;
+  padding: 0 0 15px 0;
+  color: #fff;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #1D2D5E;
+  border-top: 1px solid #768fa6;
+  border-bottom: 1px solid #67839c;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+  padding: 0 20px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #768fa6;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #12232E;
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer .footer-top h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #17BACE;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+  padding: 0 40px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #9eccf4;
+  font-size: 18px;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+#footer .footer-top .footer-links h6 span {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #9eccf4;
+}
+
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4;
+}
+
+#footer .footer-top .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #12232E;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4;
+}
+
+#footer .footer-top .footer-newsletter form input[type="submit"]:hover {
+  background: #5295ce;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+#footer .credits a {
+  color: #9eccf4;
+}
+
+.classFooter{
+  padding: 15px 0px !important;
+}
+
+/*
 #footer {
   background-color: #f3f4f6;
   color: #5f687b;
@@ -1542,3 +1749,4 @@ section {
     text-align-last: center;
   }
 }
+*/
