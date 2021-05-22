@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  /*background: #fff;*/
   transition: all 0.5s;
   z-index: 997;
   /*padding: 20px 0;*/
@@ -76,6 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
+  background: url("../img/background.png") top top no-repeat;
+  background-size: cover; 
+  
   font-size: 32px;
   margin: 0;
   padding: 0;
@@ -589,8 +592,14 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-    padding: 0;
-    background: url("../img/services/background.png");
+    padding: 100px 20px 60px 20px;
+    background: url("../img/background.png") center center no-repeat;
+    background-size: cover;
+    /*max-width: 100%*/
+    height: auto;
+    /*z-index: 1;*/
+    /*height: 520px;*/
+    /*position: relative;*/
 }
 
 .featured-services .section-title {
@@ -704,7 +713,7 @@ section {
 # Work Portfolio
 --------------------------------------------------------------*/
 .work-portfolio {
-    padding: 0;
+    padding: 60px 20px;
     background: url("../img/services/background.png");*/
 }
 
@@ -1210,7 +1219,7 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .section-title {
-    padding: 30px 0;
+    padding: 60px 20px;
     text-align: center!important;
     position: relative;
 }
@@ -1241,17 +1250,35 @@ section {
 }
 
 .contact .info i {
-  font-size: 20px;
-  color: #16df7e;
+  /*font-size: 10px;*/
+  /*color: #16df7e;*/
   float: left;
-  width: 44px;
-  height: 44px;
-  background: #fff;
+  width: 25px;
+  height: 25px;
+  /*background: #fff;*/
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
-  border-radius: 50px;
+  /*border-radius: 50px;*/
   transition: all 0.3s ease-in-out;
+}
+
+.contact .info i.mail {
+    background: url("../img/mail1.svg");
+    background-repeat: no-repeat;
+}
+
+.contact .info i.mail:hover {
+    background: url("../img/mail2.svg");
+}
+
+.contact .info i.phone {
+    background: url("../img/phone1.svg");
+    background-repeat: no-repeat;
+}
+
+.contact .info i.phone:hover {
+    background: url("../img/phone2.svg");
 }
 
 .contact .info h4 {
@@ -1289,13 +1316,13 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #16df7e;
-  color: #fff;
+  /*background: #16df7e;*/
+  /*color: #fff;*/
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #16df7e;
-  color: #fff;
+  /*background: #16df7e;*/
+  /*color: #fff;*/
 }
 
 .contact .php-email-form {
