@@ -76,8 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  /*background: url("../img/background.png") top top no-repeat;*/
+  /*background: url("../img/background.png") bottom center no-repeat;*/
   /*background-size: cover; */
+  /*background: black;*/
   font-size: 32px;
   margin: 0;
   padding: 0;
@@ -1495,7 +1496,7 @@ section {
 
 #footer {
   background: #007CC7;
-  padding: 0 0 15px 0;
+  /*padding: 0 0 15px 0;*/
   color: #fff;
   font-size: 14px;
 }
@@ -1564,8 +1565,12 @@ section {
 
 #footer .footer-top .footer-links ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  /*padding: 0;*/
+  /*margin: 0;*/
+}
+
+#footer .footer-top .footer-links .link {
+  padding-left: 100px;
 }
 
 #footer .footer-top .footer-links ul i {
