@@ -76,9 +76,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  background: url("../img/background.png") top top no-repeat;
-  background-size: cover; 
-  
+  /*background: url("../img/background.png") top top no-repeat;*/
+  /*background-size: cover; */
   font-size: 32px;
   margin: 0;
   padding: 0;
