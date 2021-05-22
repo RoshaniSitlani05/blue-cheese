@@ -592,11 +592,12 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-    padding: 100px 20px 60px 20px;
-    background: url("../img/background.png") center center no-repeat;
-    background-size: cover;
+    margin: 20px 0;
+    padding: 100px 20px 100px 20px;
+    background: url("../img/background.png") no-repeat;
+    background-size: 100% 100%;
     /*max-width: 100%*/
-    height: auto;
+    height: 100%;
     /*z-index: 1;*/
     /*height: 520px;*/
     /*position: relative;*/
@@ -713,7 +714,7 @@ section {
 # Work Portfolio
 --------------------------------------------------------------*/
 .work-portfolio {
-    padding: 60px 20px;
+    padding: 0 20px 60px 20px;
     background: url("../img/services/background.png");*/
 }
 
