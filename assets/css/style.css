@@ -64,6 +64,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
+      /*background: url("../img/logo-03.png") no-repeat;*/
+    /*background-size: 100% 100%;*/
   /*background: #fff;*/
   transition: all 0.5s;
   z-index: 997;
@@ -385,6 +387,10 @@ h1, h2, h3, h4, h5, h6 {
   /*padding-top: 82px;*/
 }
 
+#hero .hero-data{
+  padding-right: 20px;
+}
+
 #hero h1 {
     font-family: Coustard;
     margin: 0;
@@ -393,17 +399,17 @@ h1, h2, h3, h4, h5, h6 {
     /*color: #3e4450;*/
     color: #1D2D5E;
     margin: 10px 0  10px 0;
-    font-size: 40px;
+    font-size: 35px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 #hero h2 {
     font-family: Coustard;
     color: #17BACE;
-    font-size: 28px;
+    font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 47.5%;
+    letter-spacing: 10px;
 }
 
 #hero p {
@@ -593,18 +599,19 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
     margin: 20px 0;
-    padding: 100px 20px 100px 20px;
-    background: url("../img/background.png") no-repeat;
-    background-size: 100% 100%;
-    /*max-width: 100%*/
-    height: 100%;
+    padding: 60px 20px;
+    background: url("../img/background3.png") center no-repeat;
+    background-size: cover;
+    /*background-size: 100% 100%;*/
+    width: 100%
+    height: auto;
     /*z-index: 1;*/
     /*height: 520px;*/
     /*position: relative;*/
 }
 
 .featured-services .section-title {
-  padding: 30px 40px;
+  padding: 30px 50px 30px 160px;
   position: relative;
 }
 
@@ -652,7 +659,7 @@ section {
 }
 
 .featured-services .icon-box {
-    padding: 20px 10px;
+    padding: 30px 0px;
     color: #5f687b;
     /*background: #0A1B42;*/
     background: linear-gradient(to left, #0A1B42, #172750);
@@ -665,7 +672,7 @@ section {
 
 .featured-services .icon {
     margin: 0 0 15px 0;
-    padding: 5px 5px 20px 5px;
+    padding: 5px 0px 5px 0px;
 }
 
 .featured-services .icon img {
@@ -701,7 +708,7 @@ section {
 }
 
 .featured-services .icon-box:hover .title a {
-    color: #16df7e;
+    /*color: #16df7e;*/
 }
 
 .featured-services .description {
