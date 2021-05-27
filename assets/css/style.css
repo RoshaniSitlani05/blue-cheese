@@ -1667,19 +1667,19 @@ section {
 # Work
 --------------------------------------------------------------*/
 
-.work hr {
+.main-work hr {
     width: 30%;
     height: 2px;
     background-color: #17BACE;
     margin-bottom: 10px;
 }
 
-.work {
+.main-work {
     padding: 0 20px 60px 20px;
     background: url("../img/services/background.png");*/
 }
 
-.work .icon-box {
+.main-work .icon-box {
     padding: 50px;
     color: #5f687b;
     background: linear-gradient(to left, #0A1B42, #172750);
@@ -1690,39 +1690,39 @@ section {
     text-align: -webkit-center;
 }
 
-.work .service2 {
+.main-work .service2 {
     margin-top: 40px;
 }
 
-.work .service4 {
+.main-work .service4 {
     margin-top: 40px;
 }
 
-.work .title a {
+.main-work .title a {
     color: #5f687b;
     transition: 0.3s;
 }
 
-.work .icon-box:hover {
+.main-work .icon-box:hover {
     border-color: #eaecef;
 }
 
-.work .icon-box:hover .title a {
+.main-work .icon-box:hover .title a {
     /*color: #16df7e;*/
 }
 
-.work .description {
+.main-work .description {
     line-height: 24px;
     font-family: Nunito;
     font-size: 18px;
 }
 
-.work .work-new .section-title{
+.main-work .work-new .section-title{
     text-align: center;
     padding: 50px;
 }
 
-.work .work-new .title {
+.main-work .work-new .title {
     font-weight: 600;
     margin-bottom: 15px;
 }
