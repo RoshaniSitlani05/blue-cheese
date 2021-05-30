@@ -1726,3 +1726,9 @@ section {
     font-weight: 600;
     margin-bottom: 15px;
 }
+
+.main-work .work-new .sub-title {
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
