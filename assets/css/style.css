@@ -1706,7 +1706,7 @@ section {
 }
 
 .main-work .title a {
-    color: #5f687b;
+    color: #1D2D5E;
     transition: 0.3s;
 }
 
@@ -1735,6 +1735,7 @@ section {
 }
 
 .main-work .work-new .sub-title {
+  color: #17BACE;
     font-weight: 400;
     margin-bottom: 15px;
     font-size: 27px;
