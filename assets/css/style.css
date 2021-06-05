@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     #hero {
-        padding: 40px 0;
+        padding: 0 0 40px;
     }
 }
 
@@ -539,7 +539,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     #hero {
         height: auto;
-        padding: 40px 0;
+        padding: 0 0 40px;
         margin: 0;
     }
     #hero h1 {
@@ -556,6 +556,17 @@ h1, h2, h3, h4, h5, h6 {
     #hero .hero-img img {
         width: 100%;
     }
+
+    #hero .hero-data{
+        text-align: center;
+        align-self: center;
+        padding: 20px 12px!important;
+    }
+
+    #hero .hero-img{
+       padding: 20px 12px!important; 
+    }
+
 }
 
 @media (max-width: 575px) {
@@ -564,8 +575,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   #hero .hero-img{
-    padding: 20px 0;
+    padding: 60px 0 0;
   }
+  #hero .hero-data{
+        text-align: center;
+        align-self: center;
+        display: none;
+    }
 }
 
 @-webkit-keyframes up-down {
@@ -710,9 +726,18 @@ section {
         margin-bottom: 10px;
         padding-bottom: 0;
     }
+    .featured-services .service{
+      padding: 40px 0 20px;
+    }
 }
 
 @media (max-width: 768px) {
+  .featured-services {
+    background: none;
+    padding: 20px 0px;
+  }
+
+
     .featured-services .section-title h2 {
         font-size: 32px;
         font-weight: 600;
@@ -1662,6 +1687,7 @@ section {
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
   padding: 0 20px;
+  padding-right: 50px
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1678,6 +1704,10 @@ section {
   margin-bottom: 0;
   font-family: Nunito;
   color: #fff;
+}
+
+#footer .footer-top .footer-info a img {
+    width: 80%
 }
 
 #footer .footer-top .social-links a {
@@ -1808,6 +1838,35 @@ section {
 
 .classFooter{
   padding: 15px 0px !important;
+}
+
+@media (max-width: 991px) {
+   #footer .footer-top .footer-info {
+    padding-right: 0px
+  }
+
+}
+@media (max-width: 768px){
+   #footer .extra{
+    display: none;
+   }
+   #footer .footer-top .footer-info {
+    padding: 0 40px;
+  }
+  #footer .footer-top .footer-info a img {
+      width: 60%
+  }
+
+  #footer .footer-top h4{
+    font-size: 28px;
+    letter-spacing: 1px;
+    /*font-weight: 700;*/
+  }
+
+  #footer .footer-top .footer-links ul li{
+    font-size: 16px;
+  }
+
 }
 
 
