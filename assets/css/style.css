@@ -1761,6 +1761,7 @@ section {
 }
 
 #footer .footer-top .footer-info p {
+  padding: 28px 0;
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
@@ -1769,7 +1770,7 @@ section {
 }
 
 #footer .footer-top .footer-info a img {
-    width: 80%
+    width: 100%
 }
 
 #footer .footer-top .social-links a {
@@ -1827,6 +1828,10 @@ section {
   padding: 10px 0;
   display: flex;
   align-items: center;
+}
+
+#footer .footer-top .footer-links h6 {
+    padding: 10px 0;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1900,6 +1905,18 @@ section {
 
 .classFooter{
   padding: 15px 0px !important;
+}
+
+#footer .footer-top .contact-us {
+    padding-right: 0px;
+}
+
+#footer .footer-top .contact-us h6{
+    margin: 0px;
+
+}
+#footer .footer-top .contact-us .email{
+    padding-top: 0px;
 }
 
 @media (max-width: 991px) {
