@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-md-4 footer-info">
-            <a href="index.html" class="logo"><img src="assets/img/logo-06.png" alt="" class="img-fluid" style=""></a>
+            <a href="index.php" class="logo"><img src="assets/img/logo-06.png" alt="" class="img-fluid" style=""></a>
             <p>
               Blue Cheese Design Studio is a fueled aesthetic venture where our passionate team shapes the vision to reality.
             </p>
@@ -23,11 +23,11 @@
           <div class="col-lg-3 col-md-4 footer-links">
             <h4 class="" style="">Useful Links</h4>
             <ul class="link" style="padding-left: 0px;">
-              <li><a href="#hero"><i class="bx bx-chevron-right"></i> Home</a></li>
+              <li><a href="index.php"><i class="bx bx-chevron-right"></i> Home</a></li>
               <li><a href="#about"><i class="bx bx-chevron-right"></i> About</a></li>
-              <li><a href="work.html"><i class="bx bx-chevron-right"></i> Works</a></li>
+              <li><a href="work.php"><i class="bx bx-chevron-right"></i> Works</a></li>
               <li><a href="#services"><i class="bx bx-chevron-right"></i> Services</a></li>
-              <li><a href="contact.html"><i class="bx bx-chevron-right"></i> Contact</a></li>
+              <li><a href="contact.php"><i class="bx bx-chevron-right"></i> Contact</a></li>
             </ul>
           </div>
 

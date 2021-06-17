@@ -7,9 +7,10 @@
         <div class="container">
             <div class="section-title">
                 <div class="row">
+                    
                     <div class="col-lg-12">
                         <h2>PORTFOLIO</h2>
-                        <hr>
+                        <!-- <hr> -->
                         <!-- <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p> -->
                     </div>
                 </div>

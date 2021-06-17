@@ -440,8 +440,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
+    margin-top: 10px;
     font-family: Nunito;
     font-size: 18px;
+}
+
+#hero .btns{
+  margin-top: 10px;
 }
 
 #hero .btn-know-more {
@@ -677,7 +682,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-    margin: 50px 0;
+    margin: 90px 0;
     padding: 150px 0px;
     background: url("../img/background.png") center no-repeat;
     background-size: cover;
@@ -880,7 +885,7 @@ section {
 # Work Portfolio
 --------------------------------------------------------------*/
 .work-portfolio {
-    padding: 80px 20px 60px 20px;
+    padding: 60px 20px 60px 20px;
     background: url("../img/services/background.png");*/
 }
 
@@ -1743,7 +1748,7 @@ section {
   background: #1D2D5E;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
-  padding: 60px 0 30px 0;
+  padding: 40px 0 0px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1770,7 +1775,7 @@ section {
 }
 
 #footer .footer-top .footer-info a img {
-    width: 100%
+    width: 80%
 }
 
 #footer .footer-top .social-links a {
@@ -1967,10 +1972,26 @@ hr {
     margin-bottom: 10px;
 }
 
+.main-work .section-title h2 {
+  font-size: 40px;
+  font-family: Coustard;
+  font-weight: 700;
+  color: #1D2D5E;
+  z-index: 2;
+}
+
+
 .main-work {
     padding: 0 20px 60px 20px;
     background: url("../img/services/background.png");*/
 }
+
+.main-work .section-title {
+    padding: 60px 20px;
+    text-align: center!important;
+    position: relative;
+}
+
 
 .main-work .icon-box {
     padding: 50px;
@@ -2013,6 +2034,7 @@ hr {
 .main-work .work-new .section-title{
     text-align: center;
     padding: 50px;
+    padding-top: 10px;
 }
 
 .main-work .work-new .title {

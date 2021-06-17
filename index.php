@@ -6,10 +6,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-12 pt-5 pt-md-0 order-1 order-md-1 d-flex flex-column justify-content-center hero-data">
-                <h2>Visualise. Design.</h2>
+                <h2 style="padding: ">Visualise. Design.</h2>
                 <h1>Develop. Captivate.</h1>
                 <p class="description">We visualize, design and develop. Blue Cheese Design Studio is a fueled aesthetic venture where our passionate team shapes the vision to reality.</p>
-                <div class="">
+                <div class="btns">
                     <a href="#about" class="btn-know-more scrollto">Know More</a>
                     <a href="" class="btn-get-started"></i><span>Get Started</span></a>
                 </div>
