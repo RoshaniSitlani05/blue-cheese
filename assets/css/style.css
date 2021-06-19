@@ -1571,7 +1571,9 @@ section {
     /*background-color: #f9f9fa;*/
     background-color: #fff;
 }
-
+.contact hr{
+  display: none;
+}
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
 }
@@ -1762,7 +1764,7 @@ section {
         margin-bottom: 15px;
         
       }
-      
+
 
     .contact .work-new .title {
         font-weight: 600;
@@ -2209,7 +2211,9 @@ hr {
 .main-work .work-new img{
   padding: 20px;
 }
-
+.main-work hr{
+  display: none;
+}
 @media (max-width: 991px) {
   .main-work {
     margin-top: 0px;
