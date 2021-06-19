@@ -2053,3 +2053,62 @@ hr {
 .main-work .work-new img{
   padding: 20px;
 }
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.main-about hr {
+    width: 30%;
+    height: 2px;
+    background-color: #17BACE;
+    margin-bottom: 10px;
+}
+
+.main-about .section-title h2 {
+  font-size: 40px;
+  font-family: Coustard;
+  font-weight: 700;
+  color: #1D2D5E;
+  z-index: 2;
+}
+
+
+.main-about {
+    padding: 0 20px 60px 20px;
+    background: url("../img/services/background.png");*/
+}
+
+.main-about .section-title {
+    padding: 60px 20px;
+    text-align: center!important;
+    position: relative;
+}
+
+.main-about .about-data h1 {
+    font-family: Coustard;
+    font-weight: 700;
+    line-height: 67.5%;
+    /*color: #3e4450;*/
+    color: #1D2D5E;
+    margin: 20px 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main-about .about-data h2 {
+    font-family: Coustard;
+    color: #17BACE;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.main-about .about-data p {
+    margin-top: 10px 0 30px 0;
+    font-family: Nunito;
+    font-size: 18px;
+}
+

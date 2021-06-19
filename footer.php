@@ -24,7 +24,7 @@
             <h4 class="" style="">Useful Links</h4>
             <ul class="link" style="padding-left: 0px;">
               <li><a href="index.php"><i class="bx bx-chevron-right"></i> Home</a></li>
-              <li><a href="#about"><i class="bx bx-chevron-right"></i> About</a></li>
+              <li><a href="about.php"><i class="bx bx-chevron-right"></i> About</a></li>
               <li><a href="work.php"><i class="bx bx-chevron-right"></i> Works</a></li>
               <li><a href="#services"><i class="bx bx-chevron-right"></i> Services</a></li>
               <li><a href="contact.php"><i class="bx bx-chevron-right"></i> Contact</a></li>
