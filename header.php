@@ -39,9 +39,9 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto active" href="index.php"><i class="home"></i>Home</a></li>
-                <li><a class="nav-link scrollto" href="#about"><i class="about"></i>About</a></li>
+                <li><a class="nav-link scrollto" href="index.php#about"><i class="about"></i>About</a></li>
                 <li><a class="nav-link scrollto" href="work.php"><i class="work"></i>Works</a></li>
-                <li><a class="nav-link scrollto " href="#services"><i class="services"></i>Services</a></li>
+                <li><a class="nav-link scrollto " href="index.php#services"><i class="services"></i>Services</a></li>
                 <li><a class="nav-link scrollto" href="contact.php"><i class="contact"></i>Contact</a></li>                
             </ul>
               
