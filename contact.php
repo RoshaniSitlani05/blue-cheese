@@ -10,8 +10,9 @@
             <!-- <span>Contact</span> -->
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
-                    <h2>Contact Us</h2>
-                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+                    <h2>CONTACT US</h2>
+                    <hr>
+                    <!-- <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p> -->
                 </div>
             </div>            
         </div>

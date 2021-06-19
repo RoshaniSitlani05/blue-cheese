@@ -38,7 +38,7 @@
   <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex justify-content-between">
-        <div class="col-lg-3 col-md-4 col-4">
+        <div class="col-lg-3 col-md-4 col-6">
             <a href="index.php" class="logo"><img src="assets/img/logo2.jpg" alt="" class="img-fluid"></a>
         </div>
         
