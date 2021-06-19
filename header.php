@@ -1,3 +1,9 @@
+<?php
+    $sPath = basename($_SERVER['SCRIPT_NAME']);
+?>
+<script type="text/javascript">
+   sPath = '<?php echo $sPath ?>';
+</script>
 <!DOCTYPE html>
 <html lang="en">
 
