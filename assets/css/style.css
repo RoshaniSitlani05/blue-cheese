@@ -420,12 +420,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
     font-family: Coustard;
-    margin: 0;
     font-weight: 700;
     line-height: 67.5%;
     /*color: #3e4450;*/
     color: #1D2D5E;
-    margin: 10px 0  10px 0;
+    margin: 20px 0;
     font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -440,7 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
-    margin-top: 10px;
+    margin-top: 10px 0 30px 0;
     font-family: Nunito;
     font-size: 18px;
 }
@@ -682,7 +681,7 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-    margin: 90px 0;
+    margin: 100px 0;
     padding: 150px 0px;
     background: url("../img/background.png") center no-repeat;
     background-size: cover;
