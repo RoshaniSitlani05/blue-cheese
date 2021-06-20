@@ -680,8 +680,8 @@ section {
 # Featured Services
 --------------------------------------------------------------*/
 .featured-services {
-    margin: 100px 0;
-    padding: 150px 0px;
+    margin: 80px 0;
+    padding: 200px 0px 150px 0;
     background: url("../img/background.png") center no-repeat;
     background-size: cover;
     /*background-size: 100% 100%;*/
@@ -883,7 +883,7 @@ section {
 # Work Portfolio
 --------------------------------------------------------------*/
 .work-portfolio {
-    padding: 60px 20px 60px 20px;
+    padding: 60px 20px 100px 20px;
     background: url("../img/services/background.png");*/
 }
 
