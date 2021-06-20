@@ -718,6 +718,11 @@ section {
     text-align: -webkit-left;
 }
 
+@media (max-width: 1400px) {
+    .featured-services {
+        padding: 200px 0px 100px 0;
+    }
+}
 @media (max-width: 991px) {
 
   .featured-services {
