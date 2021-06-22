@@ -573,6 +573,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 575px) {
+  #hero {
+        
+        padding: 0;
+    }
   #hero h1 {
         font-size: 18px;
         font-weight: 700;
@@ -1023,6 +1027,9 @@ section {
 }
 
 @media (max-width: 575px) {
+  .work-portfolio {
+        padding: 0px;
+    }
     .work-portfolio .section-title {
         text-align: -webkit-center;
     }
